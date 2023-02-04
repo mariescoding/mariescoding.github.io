@@ -1,0 +1,251 @@
+body {
+    max-width: 1280px;
+
+}
+
+.top-page {
+
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    left: 0px;
+    top: 0px;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+.experiences {
+
+    position: absolute;
+    width: 100%;
+    height: 705px;
+    background: #6C65A2;
+    left: 0px;
+    top: 1000px;
+}
+
+.projects {
+    position: absolute;
+    width: 100%;
+    height: 1006px;
+    left: 0px;
+    top: 1705px;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+
+}
+
+.custom-shape-divider-top-1674313422 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1674313422 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 94px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1674313422 .shape-fill {
+    fill: #6C65A2;
+}
+
+.custom-shape-divider-bottom-1674301272 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1674301272 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 94px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1674301272 .shape-fill {
+    fill: #6C65A2;
+}
+
+.contents {
+    margin: 60px;
+    padding: 40px;
+    max-width: 100%;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    height: 46px;
+    position: relative;
+
+    float:bottom;
+
+}
+
+.g{
+    display:grid;
+    grid-template: 1fr/30% 70%;
+}
+
+h3 {
+    font-family: 'Lustria';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+
+    text-align: center;
+
+    color: #525095;
+}
+
+h1 {
+
+
+    font-family: 'Libre Caslon Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 180px;
+    color: #525095;
+    margin:0px;
+}
+
+.title1{
+    position: relative;
+    
+    padding: 40px;
+    max-width: 100%;
+
+}
+
+h2 {
+
+    font-family: 'Libre Caslon Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    margin: 0px;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+
+    color: #6C65A2;
+}
+
+.experiences h2 {
+    color: #F5EFEA;
+
+}
+
+.projects h2 {
+    color: #525095;
+}
+
+#one {
+    position: absolute;
+    max-width: 40%;
+    left: -104px;
+    top: 60px;
+}
+
+#two {
+    position: absolute;
+    max-width: 30%;
+    left: -127px;
+    top: 400px;
+}
+
+#three {
+    position: absolute;
+    max-width: 30%;
+    left: 950px;
+    top: 460px;
+    overflow: hidden;
+
+}
+
+#four {
+    position: absolute;
+    max-width: 20%;
+    left: 130px;
+    top: 340px;
+    overflow: hidden;
+}
+
+#five {
+    position: absolute;
+    max-width: 20%;
+    left: 1090px;
+    top: 340px;
+    overflow: hidden;
+}
+
+#P1{
+    position: absolute;
+    max-width: 30%;
+    left: -60px;
+    top: 40px;
+}
+#P2{
+    position: absolute;
+    max-width: 30%;
+    left: -87px;
+    top: 620px;
+}
+
+.grid {
+    display: grid;
+    grid-template: 50% 50%/25% 10% 25% 10% 25%;
+    gap: 10px 10px;
+
+
+}
+
+.grid2 {
+    display: grid;
+    grid-template: 50% 50%/repeat(3,1fr);
+    gap: 10px 10px;
+
+
+}
+
+.experiences h3 {
+    color: #F5EFEA;
+}
+
+.experiences h4 {
+    color: #F5EFEA;
+}
+
+.rectangle {
+    background: linear-gradient(0deg, rgba(205, 191, 179, 0.6) 0%, rgba(205, 191, 179, 0) 100%);
+    border-radius: 66px;
+    position: relat;
+    max-width: 80%;
+
+    margin:0 auto;
+}
+
+.rectangle img{
+    max-width:100%;
+
+}
